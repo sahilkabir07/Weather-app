@@ -1,0 +1,88 @@
+*{  margin: 0;
+    padding: 0 ;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+#mainHead{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 25%;
+    width: 75%;
+    border: 2px solid pink;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+#mainHead1{
+    margin-left: 20%;
+    font-family: cursive;
+    color: rgb(135, 48, 62);
+}
+#headerImg img{
+    border-radius: 50%;
+    height: 100px;
+    margin-left: 25%;
+}
+body{
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20240801/pngtree-pink-and-purple-clouds-in-a-blue-sky-background-image_16122877.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card{
+height: 90%;
+max-width: 450px;
+background: linear-gradient(125deg , pink,white);
+border: 5px solid white;
+border-radius: 10px;
+margin: auto;
+margin-top: 25px;
+padding: 40px 35px;
+text-align: center ;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebff;
+    color:black;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.search img{
+    height: 25px;
+    border-radius: 50%;
+}
+.search button{
+    border-radius: 50%;
+    border: 2px pink;
+    cursor: pointer;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.col img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.weatherIcon{
+    border-radius: 50%;
+    margin-top: 5%;
+}
